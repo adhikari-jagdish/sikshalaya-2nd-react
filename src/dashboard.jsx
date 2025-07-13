@@ -1,13 +1,10 @@
-import Header from "./header.jsx"
-import Footer from "./footer.jsx"
+import './styles.css'
 
-function Dashboard(){
-    return(
-        <div>
-               <Header />
-               <h1>Dashboard</h1> 
-               <Footer />
-        </div>
+function Dashboard() {
+    return (
+        <main>
+            <h1>Hello this is dashboard</h1>
+        </main>
     )
 }
 

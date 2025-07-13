@@ -1,8 +1,22 @@
+import './styles.css'
 
-
-function Header(){
+function Header() {
     return (
-        <h1>Hello this is header</h1>
+        <div>
+            <header>
+                <div className='title'>SIKSHALAYA</div>
+                <nav className="menu">
+                    <a href='/'>Home</a>
+                    <a href='/courses'>Courses</a>
+                    <a href='/admissions'>Admissions</a>
+                    <a href='#'>About</a>
+                    <a href='#'>Contact</a>
+                </nav>
+                <div className='logout'>
+                    <button>Logout</button>
+                </div>
+            </header>
+        </div>
     );
 }
 

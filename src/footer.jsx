@@ -1,8 +1,10 @@
+import './styles.css'
 
-
-function Footer(){
+function Footer() {
     return (
-        <h1>Footer</h1>
+        <footer>
+            <p className="copyright">Copyright &copy; 2025</p>
+        </footer>
     );
 }
 

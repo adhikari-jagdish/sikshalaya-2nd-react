@@ -71,5 +71,60 @@ footer {
     background: transparent;
 }
 
-/* Home Banner CSS */
+/* Dashboard Banner CSS */
+
+.dashboard-banner {
+    width: 100%;
+    height: 40vh;
+    background: linear-gradient(to right, #1a3c6e, #9333ea);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dashboard-banner-content{
+    text-align: center;
+    background:transparent;
+}
+
+.dashboard-banner-content h1{
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-bottom: 20px;
+    background: transparent;
+    color: white;
+}
+
+.dashboard-banner-content p{
+    font-size: 1.2em;
+    background: transparent;
+    color: white;
+}
+
+/*Common Titles CSS */
+
+.common-titles {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.common-titles-content{
+    text-align: center;
+    background:transparent;
+}
+
+.common-titles-content h1{
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    background: transparent;
+    color: #1a3c6e;
+}
+
+.common-titles-content p{
+    font-size: 1.2em;
+    background: transparent;
+    color: #1a3c6e;
+}
 

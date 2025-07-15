@@ -82,12 +82,12 @@ footer {
     justify-content: center;
 }
 
-.dashboard-banner-content{
+.dashboard-banner-content {
     text-align: center;
-    background:transparent;
+    background: transparent;
 }
 
-.dashboard-banner-content h1{
+.dashboard-banner-content h1 {
     font-size: 2.5em;
     font-weight: bold;
     margin-bottom: 20px;
@@ -95,7 +95,7 @@ footer {
     color: white;
 }
 
-.dashboard-banner-content p{
+.dashboard-banner-content p {
     font-size: 1.2em;
     background: transparent;
     color: white;
@@ -109,12 +109,12 @@ footer {
     justify-content: center;
 }
 
-.common-titles-content{
+.common-titles-content {
     text-align: center;
-    background:transparent;
+    background: transparent;
 }
 
-.common-titles-content h1{
+.common-titles-content h1 {
     font-size: 1.5em;
     font-weight: bold;
     margin-bottom: 10px;
@@ -122,9 +122,50 @@ footer {
     color: #1a3c6e;
 }
 
-.common-titles-content p{
+.common-titles-content p {
     font-size: 1.2em;
     background: transparent;
     color: #1a3c6e;
 }
 
+/* Our Programs Card */
+
+.our-programs-card {
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    background-color: white;
+}
+
+.our-programs-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.our-programs-card-content {
+    padding: 16px;
+    background: transparent;
+}
+
+.our-programs-card-title {
+    font-size: 20px;
+    margin: 0 0 10px 0;
+    background: transparent;
+}
+
+.our-programs-card-description {
+    font-size: 14px;
+    color: #555;
+    background: transparent;
+}
+
+.our-programs {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+    background: transparent;
+}

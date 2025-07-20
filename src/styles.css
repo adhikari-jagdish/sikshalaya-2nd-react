@@ -169,3 +169,41 @@ footer {
     gap: 20px;
     background: transparent;
 }
+
+/*Our Values CSS */
+
+.our-values-card {
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    background-color: #f9f9f9;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    color: #3b5998;
+    font-size: 1em;
+}
+
+.our-values-card .icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+    background: transparent;
+}
+
+.our-values-card .text {
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    background: transparent;
+}
+
+.our-values-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    background: transparent;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}

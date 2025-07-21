@@ -207,3 +207,46 @@ footer {
     margin: 0 auto;
     padding: 20px;
 }
+
+
+/* Common Courses Card */
+
+.common-courses-card {
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    background-color: white;
+}
+
+.common-courses-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.common-courses-card-content {
+    padding: 16px;
+    background: transparent;
+}
+
+.common-courses-card-content-title {
+    font-size: 20px;
+    margin: 0 0 10px 0;
+    background: transparent;
+}
+
+.common-courses-card-content-description {
+    font-size: 14px;
+    color: #555;
+    background: transparent;
+}
+
+.our-courses {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+    background: transparent;
+}
